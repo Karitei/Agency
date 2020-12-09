@@ -192,9 +192,10 @@
                         </li>
                         <li class="dropdown">
                             <a href="{{route('dashboard')}}">Se connecter</a>
-
                         </li>
-                        <li><a href="#search"><i class="pe-7s-search"></i></a></li>
+                        <li class="dropdown">
+                            <a href="{{route('register')}}">S'enregistrer</a>
+                        </li>
                         <li><a href="javascript:void(0);" class="side-menu-trigger hidden-xs"><i class="fa fa-bars"></i></a></li>
                     </ul>
                 </div>
